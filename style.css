@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    justify-content: space-between;
+}
+
+.header {
+    min-height: 32px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header header {
+    font-weight: 900;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.secondary {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header_links {
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+}
+
+.footer {
+    display: flex;
+    min-height: 32px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.one {
+    display: flex;
+    justify-content:center;
+    padding: 64px;
+    gap: 30px
+}
+
+.one div {
+    width: 450px;
+}
+
+.one h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+img {
+    width: 450px;
+}
+
+.info img {
+    width: 175px;
+    height: 175px;
+    border: 1px solid blue;
+    border-radius: 32px;
+}
+
+button {
+    width: 128px;
+    background-color: #3882F6;
+    padding: 4px;
+    font-weight: 700;
+    border-color: transparent;
+    border-radius: 10px;
+}
+
+.two {
+    background-color: white;
+    padding: 64px;
+}
+
+.two header {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.info_panels {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 32px;
+}
+
+.info div{
+    color: gray;
+    width: 175px;
+    text-align: center;
+}
+
+.three {
+    background-color: #E5E7EB;
+    padding: 128px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.author {
+    text-align: right;
+    font-size: 32px;
+}
+
+.four {
+    background-color: white;
+    padding: 64px;
+}
+
+.signup_ad {
+    padding: 40px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    gap:32px;
+}
+
+.signup_ad button {
+    border: 1px solid white;
+}
